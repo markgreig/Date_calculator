@@ -17,7 +17,7 @@ end_date = col1.date_input('Day 2')
 
 diff = duration(start_date, end_date)
 
-col1.markdown(f'The difference is {diff} days!')
+text_output1 = col1.markdown(f'The difference is {diff} days!')
 
 # create 'when' calculator
 start_date2 = col2.date_input('Start Date')
